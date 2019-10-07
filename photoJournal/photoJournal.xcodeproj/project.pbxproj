@@ -14,6 +14,11 @@
 		641FC5B8234BBF41001835E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 641FC5B7234BBF41001835E0 /* Assets.xcassets */; };
 		641FC5BB234BBF41001835E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641FC5B9234BBF41001835E0 /* LaunchScreen.storyboard */; };
 		641FC5C6234BBF42001835E0 /* photoJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641FC5C5234BBF42001835E0 /* photoJournalTests.swift */; };
+		641FC5D1234BE5CC001835E0 /* addPhotoEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641FC5D0234BE5CC001835E0 /* addPhotoEntryViewController.swift */; };
+		641FC5D3234BE623001835E0 /* photoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641FC5D2234BE623001835E0 /* photoCell.swift */; };
+		641FC5D5234BE829001835E0 /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641FC5D4234BE829001835E0 /* PhotoInfo.swift */; };
+		641FC5D7234BE877001835E0 /* PersistenceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641FC5D6234BE877001835E0 /* PersistenceHelper.swift */; };
+		641FC5D9234BE8A5001835E0 /* PhotoPersistenceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641FC5D8234BE8A5001835E0 /* PhotoPersistenceHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,11 @@
 		641FC5C1234BBF42001835E0 /* photoJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photoJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		641FC5C5234BBF42001835E0 /* photoJournalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoJournalTests.swift; sourceTree = "<group>"; };
 		641FC5C7234BBF42001835E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		641FC5D0234BE5CC001835E0 /* addPhotoEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPhotoEntryViewController.swift; sourceTree = "<group>"; };
+		641FC5D2234BE623001835E0 /* photoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoCell.swift; sourceTree = "<group>"; };
+		641FC5D4234BE829001835E0 /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
+		641FC5D6234BE877001835E0 /* PersistenceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceHelper.swift; sourceTree = "<group>"; };
+		641FC5D8234BE8A5001835E0 /* PhotoPersistenceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPersistenceHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,11 @@
 				641FC5B0234BBF41001835E0 /* SceneDelegate.swift */,
 				641FC5B2234BBF41001835E0 /* ViewController.swift */,
 				641FC5B4234BBF41001835E0 /* Main.storyboard */,
+				641FC5D2234BE623001835E0 /* photoCell.swift */,
+				641FC5D4234BE829001835E0 /* PhotoInfo.swift */,
+				641FC5D6234BE877001835E0 /* PersistenceHelper.swift */,
+				641FC5D8234BE8A5001835E0 /* PhotoPersistenceHelper.swift */,
+				641FC5D0234BE5CC001835E0 /* addPhotoEntryViewController.swift */,
 				641FC5B7234BBF41001835E0 /* Assets.xcassets */,
 				641FC5B9234BBF41001835E0 /* LaunchScreen.storyboard */,
 				641FC5BC234BBF41001835E0 /* Info.plist */,
@@ -200,8 +215,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				641FC5D5234BE829001835E0 /* PhotoInfo.swift in Sources */,
+				641FC5D3234BE623001835E0 /* photoCell.swift in Sources */,
+				641FC5D1234BE5CC001835E0 /* addPhotoEntryViewController.swift in Sources */,
+				641FC5D7234BE877001835E0 /* PersistenceHelper.swift in Sources */,
 				641FC5B3234BBF41001835E0 /* ViewController.swift in Sources */,
 				641FC5AF234BBF41001835E0 /* AppDelegate.swift in Sources */,
+				641FC5D9234BE8A5001835E0 /* PhotoPersistenceHelper.swift in Sources */,
 				641FC5B1234BBF41001835E0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
